@@ -26,11 +26,9 @@ The following must be installed
 
 No project database initialization is required -- the app will create and initialize the db when it starts. 
 
-## Running
+## Running App
 
 ```
-To run
-
 1. Download archive and extract project
 2. Open console and go to project dir
 3. Run ">npm install"
@@ -48,11 +46,11 @@ To run
 
 ## Code
 
-The code is hopefully self-explanatory, but here is a road-map to some key areas:
+The code is hopefully self-explanatory, but here are a few key touch points.
 
-main.js is the app entry point.
+First is "main.js" which is a lightweight app entry point.
 
-The following sections describe some key elements in each dir.
+The following sub-sections describe some key elements in project dirs.
 
 ### models
 
@@ -61,11 +59,6 @@ The following sections describe some key elements in each dir.
 - DbConnector - db initialization
 
 - def.js - structure and behaviors for Def (a quick definition)
-
-Notes:
-
-helper-objects.js/AppStartupTools
-db-connector.js/DbConnector
 
 ### routes
 
@@ -76,8 +69,8 @@ Contains the logic to route URL's to middleware (functional endpoints)
 Contains the middleware functionality that is mapped/called by the routes
 
 - common cases
-- def (quick definition object4)
-- defs 
+- def (quick definition object)
+- defs (collection of quick definition objects)
 - search
 
 ### views
