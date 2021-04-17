@@ -77,7 +77,11 @@ Contains the middleware functionality that is mapped/called by the routes
 
 Contains the EJS HTML-template files for "def" objects and "defs"
 
+## Making it Your Own
 
+You probably want to start with the model end of things. Here are key change/tweak points:
 
-
-
+- In "main.js" is the db URI. The db name is set to "quick_def_db"
+- File "models/def.js" provides the db structure and logic for the primary object type for the example app
+- File "models/loader1.js" loads "seed data" into the database
+- After you make your models your own, the routes, middleware and views will follow naturally
