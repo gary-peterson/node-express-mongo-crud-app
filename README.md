@@ -29,7 +29,7 @@ No project database initialization is required -- the app will create and initia
 ## Running App
 
 ```
-1. Download archive "node-express-mongo-crud-app.zip" and extract project dir
+1. Download archive "web-app.zip" and extract project dir
 2. Open console and go to project dir
 3. Run ">npm install"
 4. Run ">node main"
